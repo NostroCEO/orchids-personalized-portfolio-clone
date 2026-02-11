@@ -22,9 +22,9 @@ const experiencesFr: ExperienceItem[] = [
     ],
   },
   {
-    title: 'Freelance Brand Content Strategist & IA',
-    company: 'Independant (Creative Studio)',
-    period: '2024 – Present',
+    title: 'Brand Content Strategist & IA',
+    company: 'Freelance (Creative Studio)',
+    period: '2024 - Aujourd\'hui',
     bullets: [
       'Daily Vibe Coding : Creation d\'app iOS et Web App, automatisations sur-mesure pour accelerer des workflows.',
       'Visual Storytelling : Conception de campagnes Motion Design pour engager les audiences.',
@@ -32,8 +32,8 @@ const experiencesFr: ExperienceItem[] = [
     ],
   },
   {
-    title: 'Internal Comms & Content Lead',
-    company: 'GROUPE IDEC (700 collaborateurs)',
+    title: 'Content Factory & Communication Interne',
+    company: 'GROUPE IDEC (700 Salariés)',
     period: '2023 – 2024',
     bullets: [
       'Content Factory (Video & Print) : Production de supports Video de A a Z (Captation iPhone, montage Premiere Pro, storyboard, interviews metiers/chantier) et creation de supports Print.',
@@ -74,7 +74,7 @@ const experiencesEn: ExperienceItem[] = [
     ],
   },
   {
-    title: 'Internal Comms & Content Lead',
+    title: 'Content Factory & Internal Communication',
     company: 'GROUPE IDEC (700 employees)',
     period: '2023 – 2024',
     bullets: [
