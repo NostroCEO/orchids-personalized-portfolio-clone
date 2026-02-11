@@ -38,7 +38,7 @@ export function Resume() {
     languages: ['Francais - Natif', 'Anglais - Courant'],
       experience: [
         {
-          role: 'Growth Marketing & Content Manager',
+          role: 'Growth Marketing & Website Création',
           company: 'Ceram Pierre',
           period: '2025',
           points: [
@@ -48,9 +48,9 @@ export function Resume() {
           ],
         },
         {
-          role: 'Freelance Brand Content Strategist et IA',
-          company: 'Independant (Creative Studio)',
-          period: '2024 - Present',
+          role: 'Brand Content, Motion Design, Website & Vibe Coding IA',
+          company: 'Freelance (Creative Studio)',
+          period: '2024 - Aujourd\'hui',
           points: [
             'Social Media : Animation de communautes et creation de contenus adaptes a differentes audiences (institutions, associations, partenaires).',
             'Video & Visuel : Production de formats courts (teasers, reels, interviews) avec focus clarte et impact.',
@@ -58,8 +58,8 @@ export function Resume() {
           ],
         },
         {
-          role: 'Internal Comms & Content Lead',
-          company: 'Groupe IDEC (700 collaborateurs)',
+          role: 'Content Creator & Communication Interne/Externe & Marketing',
+          company: 'GROUPE IDEC (700 Salariés)',
           period: '2023 - 2024',
           points: [
             'Content Factory (Video & Print) : Production de supports Video de A a Z (Captation, montage Premiere Pro, storyboard, interviews metiers). Design de visuels (posts sociaux, bannieres, supports de presentation).',
@@ -68,7 +68,7 @@ export function Resume() {
           ],
         },
         {
-          role: 'Community Manager & Digital Lead',
+          role: 'Community Manager & Prospection Digitale',
           company: 'Chambre de Commerce et d\'Industrie',
           period: '2021 - 2022',
           points: [
@@ -136,7 +136,7 @@ export function Resume() {
     languages: ['French - Native', 'English - Fluent'],
     experience: [
         {
-          role: 'Growth Marketing & Content Manager',
+          role: 'Growth Marketing & Website Creation',
           company: 'Ceram Pierre',
           period: '2025',
           points: [
@@ -146,8 +146,8 @@ export function Resume() {
           ],
         },
         {
-          role: 'Freelance Brand Content Strategist & AI',
-          company: 'Independent (Creative Studio)',
+          role: 'Brand Content, Motion Design, Website & AI Vibe Coding',
+          company: 'Freelance (Creative Studio)',
           period: '2024 - Present',
           points: [
             'Social Media: Community management and content creation adapted to diverse audiences (institutions, nonprofits, partners).',
@@ -156,8 +156,8 @@ export function Resume() {
           ],
         },
         {
-          role: 'Internal Comms & Content Lead',
-          company: 'Groupe IDEC (700 employees)',
+          role: 'Content Creator & Internal/External Communication & Marketing',
+          company: 'GROUPE IDEC (700 employees)',
           period: '2023 - 2024',
           points: [
             'Content Factory (Video & Print): End-to-end video production (capture, Premiere Pro editing, storyboard, interviews). Visual asset design (social posts, banners, presentation materials).',
@@ -166,7 +166,7 @@ export function Resume() {
           ],
         },
         {
-          role: 'Community Manager & Digital Lead',
+          role: 'Community Manager & Digital Prospecting',
           company: 'Chamber of Commerce and Industry',
           period: '2021 - 2022',
           points: [
