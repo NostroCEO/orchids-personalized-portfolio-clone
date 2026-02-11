@@ -1,0 +1,210 @@
+{
+  "personal": {
+    "name": "Umit Barlas",
+    "age": "28 ans",
+    "location": "Paris, France",
+    "title": "Marketing & Content Manager | AI-Augmented Enthusiast",
+    "email": "b3.umit@gmail.com",
+    "phone": "+33 7 78 24 45 72",
+    "handle": "@umitbarlas",
+    "bio": "Hey! I'm Umit, a Content Manager with 4+ years of experience in 360 communication (Strategy, Video, Social Media). Passionate about technology and AI, I implement AI solutions across Tech, Marketing, and Communication. A creative and technical profile, at the service of engagement.",
+    "avatar": "/profile.jpeg",
+    "fallbackAvatar": "/placeholder.jpg"
+  },
+  "education": {
+    "current": {
+      "degree": "Bachelor Communication & Marketing Digital",
+      "institution": "ESG Ecole de Commerce",
+      "duration": "2023-2024",
+      "cgpa": "",
+      "graduationDate": "2024"
+    },
+    "previous": {
+      "degree": "Bachelor Lead Business Developer",
+      "institution": "CCI Campus France",
+      "duration": "2021-2022",
+      "percentage": "",
+      "completionDate": "2022"
+    },
+    "achievements": [
+      "Google Marketing Ads Certification",
+      "Hubspot Skillshop CRM Certification",
+      "Skillshop AI Powered Performance Ads Certification",
+      "Nvidia AI Fundamentals with Jetson Nano Certification"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Ceram Pierre",
+      "position": "Growth Marketing & Content Manager",
+      "type": "Full-time",
+      "duration": "2025",
+      "description": "SEO & Content Strategy: Revamped semantic strategy. Wrote expert content that propelled the site to Google Top 1 (+200% organic traffic). UX Optimization: Improved web accessibility via an ultra-performant platform (Lighthouse 98/100). Managed digital roadmap and analyzed acquisition KPIs.",
+      "technologies": ["SEO", "Content Strategy", "Google Analytics", "Lighthouse", "UX/UI", "KPI Analysis"]
+    },
+    {
+      "company": "Independent (Creative Studio)",
+      "position": "Freelance Brand Content Strategist & AI",
+      "type": "Freelance",
+      "duration": "2024 - Present",
+      "description": "Daily Vibe Coding: Building iOS and Web Apps, custom automations to accelerate workflows. Visual Storytelling: Designing Motion Design campaigns to engage audiences. AI Workflows: Creating automations (n8n + OpenRouter) for large-scale content production.",
+      "technologies": ["React Native", "Expo", "n8n", "OpenRouter", "After Effects", "Motion Design", "AI Automation"]
+    },
+    {
+      "company": "GROUPE IDEC (700 employees)",
+      "position": "Internal Comms & Content Lead",
+      "type": "Full-time",
+      "duration": "2023 - 2024",
+      "description": "Content Factory (Video & Print): End-to-end video production (iPhone capture, Premiere Pro editing, storyboard, interviews) and print materials (brochures, POS displays). Web & Employer Brand: Complete rebranding of Career space (UX/UI). Community Management to boost HR attractiveness. 360 Communication: Intranet management (Newsletters, Interviews) and events.",
+      "technologies": ["Premiere Pro", "After Effects", "UX/UI", "Community Management", "Intranet", "Print Design"]
+    },
+    {
+      "company": "Chambre de Commerce et d'Industrie",
+      "position": "Community Manager & Digital Lead",
+      "type": "Full-time",
+      "duration": "2021 - 2022",
+      "description": "Community Growth: Social media animation and newsletters. Created direct connections between the institution and local economic ecosystem. Event Communications: Organized events for brand awareness.",
+      "technologies": ["Social Media", "Newsletter", "Event Management", "Community Management"]
+    }
+  ],
+  "skills": {
+    "ai_skills": ["Content Factory Automation (n8n)", "Vibe Coding (Sub Agents, MCPs, Claude Code)", "Local LLM via ClawdBot", "React Native + Expo App Building", "AI Workflows (n8n + OpenRouter)"],
+    "content_brand": ["Storytelling & Copywriting", "SEO Editorial Strategy", "Brand Positioning", "Content Strategy"],
+    "creative_tools": ["Motion Design (After Effects)", "Video Editing (Premiere Pro)", "Figma", "Framer"],
+    "growth_data": ["SEO/SEA", "Analytics KPIs (GA4)", "Google Ads", "Performance Marketing"],
+    "certifications": ["Google Marketing Ads", "Hubspot Skillshop CRM", "Skillshop AI Powered Perf Ads", "Nvidia AI Fundamentals (Jetson Nano)"],
+    "languages": ["French (Native)", "English (Fluent)"]
+  },
+  "projects": [
+    {
+      "title": "SEO & Content Strategy - Ceram Pierre",
+      "category": "Growth Marketing",
+      "description": "Revamped semantic strategy and wrote expert content that propelled the site to Google Top 1 with +200% organic traffic. Optimized web accessibility achieving Lighthouse 98/100.",
+      "techStack": ["SEO", "Content Strategy", "Google Analytics", "Lighthouse"],
+      "date": "2025",
+      "status": "Completed",
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "AI Content Automation Pipeline",
+      "category": "AI Automation",
+      "description": "Built AI workflow automations using n8n + OpenRouter for large-scale content production. Streamlined content creation processes through intelligent automation.",
+      "techStack": ["n8n", "OpenRouter", "AI", "Automation"],
+      "date": "2024",
+      "status": "Ongoing",
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "Mobile App Development",
+      "category": "App Development",
+      "description": "Developed iOS applications using React Native + Expo to master LLM integration and explore the MCP protocol. Part of personal R&D and citizen tech projects.",
+      "techStack": ["React Native", "Expo", "LLM", "MCP Protocol"],
+      "date": "2024",
+      "status": "Ongoing",
+      "featured": true,
+      "links": [],
+      "images": []
+    },
+    {
+      "title": "GROUPE IDEC Content Factory",
+      "category": "Video & Print Production",
+      "description": "End-to-end video production and print material creation for a 700-employee group. Complete rebranding of the Career space with UX/UI improvements and community management.",
+      "techStack": ["Premiere Pro", "After Effects", "UX/UI", "Print Design"],
+      "date": "2023-2024",
+      "status": "Completed",
+      "featured": true,
+      "links": [],
+      "images": []
+    }
+  ],
+  "social": {
+    "linkedin": "https://linkedin.com/in/umitbarlas",
+    "github": "",
+    "twitter": "",
+    "portfolio": "https://barlas.framer.website"
+  },
+  "internship": {
+    "seeking": true,
+    "duration": "Full-time",
+    "startDate": "Available Now",
+    "preferredLocation": "Paris, France / Remote",
+    "focusAreas": ["Marketing & Content", "AI Integration", "Brand Strategy", "Growth Marketing"],
+    "availability": "Available for immediate start",
+    "workStyle": "Creative, technical, AI-augmented approach to marketing and communication",
+    "goals": "Join an innovative team where I can combine my marketing expertise with AI to drive engagement and growth."
+  },
+  "personality": {
+    "traits": ["creative", "technical", "passionate", "curious", "results-driven"],
+    "interests": ["AI/ML", "Marketing", "Content Creation", "Motion Design", "Automation", "Tech Community"],
+    "funFacts": [
+      "Propelled a website to Google Top 1 with +200% organic traffic",
+      "Active member of the Parisian AI ecosystem and Cursor co-working cafes",
+      "Builds iOS apps with React Native + Expo as a hobby",
+      "Runs a local LLM setup via ClawdBot on Mac Mini"
+    ],
+    "workingStyle": "Creative and technical, always exploring how AI can enhance marketing and communication",
+    "motivation": "Bridging the gap between marketing creativity and AI technology to create impactful content at scale"
+  },
+  "resume": {
+    "title": "Umit Barlas - Resume",
+    "description": "Marketing & Content Manager | AI-Augmented Enthusiast",
+    "fileType": "PDF",
+    "lastUpdated": "2025",
+    "fileSize": "1 MB",
+    "downloadUrl": "/Exo.pdf"
+  },
+  "chatbot": {
+    "name": "Umit",
+    "personality": "professional, creative, tech-savvy",
+    "tone": "friendly and conversational",
+    "language": "english",
+    "responseStyle": "short and interactive",
+    "useEmojis": true,
+    "topics": ["projects", "skills", "experience", "contact", "certifications", "achievements"]
+  },
+  "presetQuestions": {
+    "me": [
+      "Who are you?",
+      "Tell me about yourself",
+      "What's your background?",
+      "What are your passions?"
+    ],
+    "professional": [
+      "What are your skills?",
+      "Can I see your resume?",
+      "What's your experience?",
+      "What certifications do you have?",
+      "Why should I hire you?",
+      "What's your educational background?"
+    ],
+    "projects": [
+      "What projects are you most proud of?",
+      "Tell me about your AI projects",
+      "What are you working on?"
+    ],
+    "achievements": [
+      "What are your major achievements?",
+      "Tell me about your marketing results"
+    ],
+    "contact": [
+      "How can I reach you?",
+      "What's your email?",
+      "Where can I find you online?"
+    ],
+    "fun": [
+      "What are your hobbies?",
+      "Tell me something interesting about you",
+      "What motivates you?"
+    ]
+  },
+  "meta": {
+    "configVersion": "2.0",
+    "lastUpdated": "2025-02-11",
+    "generatedBy": "Umit Barlas",
+    "description": "Portfolio configuration for Umit Barlas - Marketing & Content Manager"
+  }
+}

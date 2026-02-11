@@ -1,0 +1,86 @@
+2026-02-11T14:11:48.118Z [console][error] ./user/app/src/components/chat/chat.tsx:2:1
+Module not found: Can't resolve '@ai-sdk/react'
+  1 | 'use client';
+> 2 | import { useChat } from '@ai-sdk/react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { AnimatePresence, motion } from 'framer-motion';
+  4 | import dynamic from 'next/dynamic';
+  5 | import { useSearchParams } from 'next/navigation';
+
+Import traces:
+  Client Component Browser:
+    ./user/app/src/components/chat/chat.tsx [Client Component Browser]
+    ./user/app/src/app/page.tsx [Client Component Browser]
+    ./user/app/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./user/app/src/components/chat/chat.tsx [Client Component SSR]
+    ./user/app/src/app/page.tsx [Client Component SSR]
+    ./user/app/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-11T14:11:48.118Z [console][error] ./user/app/src/components/chat/chat-message-content.tsx:4:1
+Module not found: Can't resolve 'react-markdown'
+  2 |
+  3 | import { Message } from 'ai/react';
+> 4 | import Markdown from 'react-markdown';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import remarkGfm from 'remark-gfm';
+  6 | import {
+  7 |   Collapsible,
+
+Import traces:
+  Client Component Browser:
+    ./user/app/src/components/chat/chat-message-content.tsx [Client Component Browser]
+    ./user/app/src/components/chat/chat.tsx [Client Component Browser]
+    ./user/app/src/app/page.tsx [Client Component Browser]
+    ./user/app/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./user/app/src/components/chat/chat-message-content.tsx [Client Component SSR]
+    ./user/app/src/components/chat/chat.tsx [Client Component SSR]
+    ./user/app/src/app/page.tsx [Client Component SSR]
+    ./user/app/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-11T14:11:48.118Z [console][error] ./user/app/src/components/chat/chat-message-content.tsx:5:1
+Module not found: Can't resolve 'remark-gfm'
+  3 | import { Message } from 'ai/react';
+  4 | import Markdown from 'react-markdown';
+> 5 | import remarkGfm from 'remark-gfm';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import {
+  7 |   Collapsible,
+  8 |   CollapsibleContent,
+
+Import traces:
+  Client Component Browser:
+    ./user/app/src/components/chat/chat-message-content.tsx [Client Component Browser]
+    ./user/app/src/components/chat/chat.tsx [Client Component Browser]
+    ./user/app/src/app/page.tsx [Client Component Browser]
+    ./user/app/src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./user/app/src/components/chat/chat-message-content.tsx [Client Component SSR]
+    ./user/app/src/components/chat/chat.tsx [Client Component SSR]
+    ./user/app/src/app/page.tsx [Client Component SSR]
+    ./user/app/src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+2026-02-11T14:12:38.151Z [console][warn] Image with src "/profile.jpeg" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority
+2026-02-11T17:22:26.499Z [console][error] An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+2026-02-11T17:22:26.513Z [console][error] Image is missing required "src" property: [Object]
+2026-02-11T17:22:26.499Z [console][error] An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+2026-02-11T17:22:26.513Z [console][error] Image is missing required "src" property: [Object]
+2026-02-11T17:22:26.499Z [console][error] An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+2026-02-11T17:22:26.513Z [console][error] Image is missing required "src" property: [Object]
+2026-02-11T17:22:43.779Z [console][warn] Image with src "/avant-espace-carriere.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-11T17:22:44.785Z [console][warn] Image with src "/ud-labs-landing.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-11T17:22:45.447Z [console][warn] Image with src "/ai-working.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-11T17:22:45.602Z [console][warn] Image with src "/workflow-gemini.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-11T17:22:45.685Z [console][warn] Image with src "/higgsfield-cinema.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+2026-02-11T17:22:26.499Z [console][error] An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+2026-02-11T17:22:26.513Z [console][error] Image is missing required "src" property: [Object]
+2026-02-11T17:22:26.499Z [console][error] An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+2026-02-11T17:22:26.513Z [console][error] Image is missing required "src" property: [Object]
