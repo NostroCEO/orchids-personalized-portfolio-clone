@@ -6,16 +6,16 @@ import { Download, Mail, Globe, Linkedin, Phone, Briefcase, GraduationCap, Award
 import { useLang } from '@/lib/lang-context';
 
 export function Resume() {
-  const { lang, t } = useLang();
+  const { locale, t } = useLang();
 
-    const cvData = lang === 'fr' ? {
+    const cvData = locale === 'fr' ? {
       name: 'Umit Barlas',
       title: 'Content & Communication Manager',
       subtitle: 'Social Media | Video | IA',
       profile: 'Content Manager de 28 ans avec plus de 4 ans d\'experience en communication 360 (Social Media, Video, Strategie Editoriale). Gestion de communautes sur LinkedIn, X et Instagram. Creation de contenus visuels et video (formats pedagogiques, interviews, teasers, reels). Contribution a l\'evolution de l\'identite visuelle et editoriale. Passionne par l\'IA et son application dans la communication.',
     contact: {
       email: 'b3.umit@gmail.com',
-      website: 'barlas.framer.website',
+      website: 'umit-barlas-portfolio.vercel.app',
       linkedin: 'Umit Barlas',
       phone: '+33 7 78 24 45 72',
     },
@@ -113,7 +113,7 @@ export function Resume() {
       profile: '28-year-old Content Manager with 4+ years of experience in 360 communication (Social Media, Video, Editorial Strategy). Community management on LinkedIn, X and Instagram. Visual and video content creation (educational formats, interviews, teasers, reels). Contributing to visual and editorial identity evolution. Passionate about AI and its application in communication.',
     contact: {
       email: 'b3.umit@gmail.com',
-      website: 'barlas.framer.website',
+      website: 'umit-barlas-portfolio.vercel.app',
       linkedin: 'Umit Barlas',
       phone: '+33 7 78 24 45 72',
     },

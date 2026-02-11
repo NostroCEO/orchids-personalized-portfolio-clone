@@ -55,6 +55,7 @@ const projectDefs: ProjectDef[] = [
     media: {
       type: 'gallery',
       images: [
+        { src: '/Video GridX.mp4', alt: 'GridX Video' },
         { src: '/workflow-gemini.webp', alt: 'GridX Workflow' },
       ],
     },
@@ -66,8 +67,8 @@ const projectDefs: ProjectDef[] = [
     accentColor: 'from-purple-500/10 to-pink-500/10',
     link: { url: '/plaquette-scpf.pdf', label: 'Plaquette SCPF (PDF)' },
     media: {
-      type: 'image',
-      src: '/portfolio.png',
+      type: 'video',
+      src: '/SCPF Project1 (1).mp4',
     },
   },
   {
@@ -133,8 +134,10 @@ const projectDefs: ProjectDef[] = [
     media: {
       type: 'gallery',
       images: [
+        { src: '/Motion Design UD Labs.mp4', alt: 'Motion Design UD Labs' },
         { src: '/higgsfield-cinema.jpg', alt: 'Higgsfield Cinema Studio' },
         { src: '/ai-working.webp', alt: 'AI Creative Work' },
+        { src: '/capture-projets-divers.png', alt: 'Projets Divers' },
       ],
     },
   },
@@ -226,6 +229,14 @@ function VideoPlayer({ src, poster }: { src: string; poster?: string }) {
   const [hasError, setHasError] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
 
+  useEffect(() => {
+    if (isLoaded && videoRef.current) {
+      videoRef.current.play().then(() => {
+        setIsPlaying(true);
+      }).catch(() => setHasError(true));
+    }
+  }, [isLoaded]);
+
   const togglePlay = () => {
     if (!videoRef.current) return;
     if (isPlaying) {
@@ -271,20 +282,15 @@ function VideoPlayer({ src, poster }: { src: string; poster?: string }) {
         muted={isMuted}
         loop
         playsInline
+        autoPlay
         className="h-full w-full object-contain"
         onLoadedData={() => setIsLoaded(true)}
+        onPlay={() => setIsPlaying(true)}
+        onPause={() => setIsPlaying(false)}
         onEnded={() => setIsPlaying(false)}
         onError={() => setHasError(true)}
       />
-      {!isLoaded && !hasError && (
-        <div className="absolute inset-0 flex items-center justify-center">
-          <div className="flex flex-col items-center gap-3 text-muted-foreground">
-            <Film className="h-10 w-10 animate-pulse" />
-            <span className="text-sm">{t.projects.videoComingSoon}</span>
-          </div>
-        </div>
-      )}
-      {isLoaded && (
+      {(
         <>
           <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 transition-opacity group-hover/video:opacity-100">
             <button onClick={togglePlay} className="rounded-full bg-white/90 p-3 shadow-lg transition-transform hover:scale-110">
@@ -299,13 +305,6 @@ function VideoPlayer({ src, poster }: { src: string; poster?: string }) {
               <Maximize className="h-4 w-4 text-white" />
             </button>
           </div>
-          {!isPlaying && (
-            <button onClick={togglePlay} className="absolute inset-0 flex items-center justify-center">
-              <div className="rounded-full bg-white/90 p-4 shadow-lg">
-                <Play className="h-8 w-8 text-gray-800" />
-              </div>
-            </button>
-          )}
         </>
       )}
     </div>
@@ -372,9 +371,19 @@ function ProjectMedia({ project }: { project: ProjectDef }) {
     case 'image':
     default:
       return media.src ? (
-        <div className="relative aspect-video w-full overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-900">
+        <div className={`relative w-full overflow-hidden rounded-xl bg-gray-100 dark:bg-gray-900 ${
+          project.id === 'linkedin-idec' ? 'max-w-md mx-auto' : 'aspect-video'
+        }`}>
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={media.src} alt="" className="absolute inset-0 h-full w-full object-cover" />
+          <img
+            src={media.src}
+            alt=""
+            className={`${
+              project.id === 'linkedin-idec'
+                ? 'w-full h-auto object-contain'
+                : 'absolute inset-0 h-full w-full object-cover'
+            }`}
+          />
         </div>
       ) : null;
   }
