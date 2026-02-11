@@ -12,7 +12,7 @@ interface ExperienceItem {
 
 const experiencesFr: ExperienceItem[] = [
   {
-    title: 'Growth Marketing & Content Manager',
+    title: 'Growth Marketing & Website Création',
     company: 'Ceram Pierre',
     period: '2025',
     bullets: [
@@ -22,7 +22,7 @@ const experiencesFr: ExperienceItem[] = [
     ],
   },
   {
-    title: 'Brand Content Strategist & IA',
+    title: 'Brand Content, Motion Design, Website & Vibe Coding IA',
     company: 'Freelance (Creative Studio)',
     period: '2024 - Aujourd\'hui',
     bullets: [
@@ -32,7 +32,7 @@ const experiencesFr: ExperienceItem[] = [
     ],
   },
   {
-    title: 'Content Factory & Communication Interne',
+    title: 'Content Creator & Communication Interne/Externe & Marketing',
     company: 'GROUPE IDEC (700 Salariés)',
     period: '2023 – 2024',
     bullets: [
@@ -42,7 +42,7 @@ const experiencesFr: ExperienceItem[] = [
     ],
   },
   {
-    title: 'Community Manager & Digital Lead',
+    title: 'Community Manager & Prospection Digitale',
     company: 'Chambre de Commerce et d\'Industrie',
     period: '2021 – 2022',
     bullets: [
