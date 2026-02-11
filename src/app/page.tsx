@@ -8,10 +8,8 @@ import Contact from '@/components/contact';
 import AvailabilityCard from '@/components/AvailabilityCard';
 import Projects from '@/components/projects';
 import Expertise from '@/components/expertise';
-import Strategy from '@/components/strategy';
 import SoftSkills from '@/components/soft-skills';
 import Experience from '@/components/experience';
-import Parcours from '@/components/parcours';
 import Navbar from '@/components/navbar';
 import { motion } from 'framer-motion';
 import { LangProvider } from '@/lib/lang-context';
@@ -44,10 +42,6 @@ export default function Home() {
             </Suspense>
             </section>
 
-            <Section id="parcours">
-              <Parcours />
-            </Section>
-
               <Section id="experience">
               <Experience />
             </Section>
@@ -58,10 +52,6 @@ export default function Home() {
 
           <Section id="skills">
             <Skills />
-          </Section>
-
-          <Section id="strategy">
-            <Strategy />
           </Section>
 
           <Section id="soft-skills">

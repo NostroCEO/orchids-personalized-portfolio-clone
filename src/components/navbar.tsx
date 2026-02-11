@@ -11,7 +11,6 @@ const sections = [
   { id: 'experience', labelFr: 'Parcours', labelEn: 'Experience' },
   { id: 'expertise', labelFr: 'Expertise', labelEn: 'Expertise' },
   { id: 'skills', labelFr: 'Compétences', labelEn: 'Skills' },
-  { id: 'strategy', labelFr: 'Méthodologie', labelEn: 'Methodology' },
   { id: 'projects', labelFr: 'Réalisations', labelEn: 'Projects' },
   { id: 'resume', labelFr: 'CV', labelEn: 'Resume' },
   { id: 'contact', labelFr: 'Contact', labelEn: 'Contact' },

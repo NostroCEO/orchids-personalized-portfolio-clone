@@ -25,6 +25,19 @@ interface ProjectDef {
 
 const projectDefs: ProjectDef[] = [
   {
+    id: 'culinea-ios',
+    icon: <Smartphone className="h-5 w-5" />,
+    tags: ['iOS App', 'Vibe Coding', 'React Native', 'Expo', 'AI Agents', 'Mobile', 'Figma'],
+    accentColor: 'from-green-500/10 to-emerald-500/10',
+    media: {
+      type: 'gallery',
+      images: [
+        { src: '/culinea-app.png', alt: 'Culinea iOS App' },
+        { src: '/sketch-culinea.jpg', alt: 'Figma Sketch Culinea' },
+      ],
+    },
+  },
+  {
     id: 'groupe-idec',
     icon: <Building2 className="h-5 w-5" />,
     tags: ['Brand Strategy', 'Video Production', 'Social Media', 'Content Management'],
@@ -100,19 +113,6 @@ const projectDefs: ProjectDef[] = [
         { src: '/ud-labs-landing.jpg', alt: 'UD Labs Landing Page' },
         { src: '/ai-working.webp', alt: 'AI Working' },
         { src: '/workflow-gemini.webp', alt: 'Workflow Gemini' },
-      ],
-    },
-  },
-  {
-    id: 'culinea-ios',
-    icon: <Smartphone className="h-5 w-5" />,
-    tags: ['iOS App', 'Vibe Coding', 'React Native', 'Expo', 'AI Agents', 'Mobile', 'Figma'],
-    accentColor: 'from-green-500/10 to-emerald-500/10',
-    media: {
-      type: 'gallery',
-      images: [
-        { src: '/culinea-app.png', alt: 'Culinea iOS App' },
-        { src: '/sketch-culinea.jpg', alt: 'Figma Sketch Culinea' },
       ],
     },
   },
